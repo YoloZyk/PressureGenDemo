@@ -1,0 +1,170 @@
+[2025-11-17 17:22:25] [INFO] Using device: cuda:0
+[2025-11-17 17:22:25] [INFO] Experiment: 20251117_172225
+[2025-11-17 17:22:25] [INFO] Output directory: outputs/20251117_172225
+[2025-11-17 17:22:25] [INFO] Configuration saved to: outputs/20251117_172225/config.json
+[2025-11-17 17:22:25] [INFO] Loading datasets...
+[2025-11-17 17:23:12] [INFO] Loaded train data: 184000 samples
+[2025-11-17 17:23:12] [INFO] Initializing FLOW_MATCHING model...
+[2025-11-17 17:23:12] [INFO] UNet mid structure: attention
+[2025-11-17 17:23:12] [INFO] Attention heads: 4
+[2025-11-17 17:23:12] [INFO] FlowMatching initialized with sigma=0.01
+[2025-11-17 17:23:12] [INFO] Total parameters: 4,931,329
+[2025-11-17 17:23:12] [INFO] Trainable parameters: 4,931,329
+[2025-11-17 17:23:12] [INFO] Hyperparameters:
+[2025-11-17 17:23:12] [INFO]   model_type: flow_matching
+[2025-11-17 17:23:12] [INFO]   device: cuda:0
+[2025-11-17 17:23:12] [INFO]   epochs: 50
+[2025-11-17 17:23:12] [INFO]   batch_size: 64
+[2025-11-17 17:23:12] [INFO]   learning_rate: 0.0001
+[2025-11-17 17:23:12] [INFO]   weight_decay: 0.0
+[2025-11-17 17:23:12] [INFO]   grad_clip: 1.0
+[2025-11-17 17:23:12] [INFO]   num_workers: 0
+[2025-11-17 17:23:12] [INFO]   timesteps: 1000
+[2025-11-17 17:23:12] [INFO]   flow_sigma: 0.01
+[2025-11-17 17:23:12] [INFO]   base_channels: 128
+[2025-11-17 17:23:12] [INFO]   channel_multipliers: [1, 2, 4]
+[2025-11-17 17:23:12] [INFO]   time_emb_dim: 128
+[2025-11-17 17:23:12] [INFO]   mid_structure: attention
+[2025-11-17 17:23:12] [INFO]   mid_num_heads: 4
+[2025-11-17 17:23:12] [INFO]   output_dir: outputs
+[2025-11-17 17:23:12] [INFO]   exp_name: 
+[2025-11-17 17:23:12] [INFO]   log_interval: 100
+[2025-11-17 17:23:12] [INFO]   save_interval: 999
+[2025-11-17 17:23:12] [INFO]   resume: 
+[2025-11-17 17:23:12] [INFO] Starting training...
+[2025-11-17 17:29:55] [INFO] Epoch [1/50] Average Loss: 1.047125
+[2025-11-17 17:29:55] [INFO] New best model! Loss: 1.047125
+[2025-11-17 17:29:56] [INFO] Checkpoint saved at epoch 1
+[2025-11-17 17:36:55] [INFO] Epoch [2/50] Average Loss: 0.947381
+[2025-11-17 17:36:55] [INFO] New best model! Loss: 0.947381
+[2025-11-17 17:37:10] [INFO] Checkpoint saved at epoch 2
+[2025-11-17 17:44:06] [INFO] Epoch [3/50] Average Loss: 0.922550
+[2025-11-17 17:44:06] [INFO] New best model! Loss: 0.922550
+[2025-11-17 17:44:11] [INFO] Checkpoint saved at epoch 3
+[2025-11-17 17:50:46] [INFO] Epoch [4/50] Average Loss: 0.909522
+[2025-11-17 17:50:46] [INFO] New best model! Loss: 0.909522
+[2025-11-17 17:50:47] [INFO] Checkpoint saved at epoch 4
+[2025-11-17 17:57:23] [INFO] Epoch [5/50] Average Loss: 0.899388
+[2025-11-17 17:57:23] [INFO] New best model! Loss: 0.899388
+[2025-11-17 17:57:24] [INFO] Checkpoint saved at epoch 5
+[2025-11-17 18:04:04] [INFO] Epoch [6/50] Average Loss: 0.893692
+[2025-11-17 18:04:04] [INFO] New best model! Loss: 0.893692
+[2025-11-17 18:04:05] [INFO] Checkpoint saved at epoch 6
+[2025-11-17 18:10:46] [INFO] Epoch [7/50] Average Loss: 0.886531
+[2025-11-17 18:10:46] [INFO] New best model! Loss: 0.886531
+[2025-11-17 18:10:47] [INFO] Checkpoint saved at epoch 7
+[2025-11-17 18:17:26] [INFO] Epoch [8/50] Average Loss: 0.881362
+[2025-11-17 18:17:26] [INFO] New best model! Loss: 0.881362
+[2025-11-17 18:17:27] [INFO] Checkpoint saved at epoch 8
+[2025-11-17 18:24:08] [INFO] Epoch [9/50] Average Loss: 0.878617
+[2025-11-17 18:24:08] [INFO] New best model! Loss: 0.878617
+[2025-11-17 18:24:09] [INFO] Checkpoint saved at epoch 9
+[2025-11-17 18:30:53] [INFO] Epoch [10/50] Average Loss: 0.874885
+[2025-11-17 18:30:53] [INFO] New best model! Loss: 0.874885
+[2025-11-17 18:30:53] [INFO] Checkpoint saved at epoch 10
+[2025-11-17 18:37:29] [INFO] Epoch [11/50] Average Loss: 0.870838
+[2025-11-17 18:37:29] [INFO] New best model! Loss: 0.870838
+[2025-11-17 18:37:30] [INFO] Checkpoint saved at epoch 11
+[2025-11-17 18:44:02] [INFO] Epoch [12/50] Average Loss: 0.868847
+[2025-11-17 18:44:02] [INFO] New best model! Loss: 0.868847
+[2025-11-17 18:44:03] [INFO] Checkpoint saved at epoch 12
+[2025-11-17 18:50:45] [INFO] Epoch [13/50] Average Loss: 0.867175
+[2025-11-17 18:50:45] [INFO] New best model! Loss: 0.867175
+[2025-11-17 18:50:46] [INFO] Checkpoint saved at epoch 13
+[2025-11-17 18:57:22] [INFO] Epoch [14/50] Average Loss: 0.864302
+[2025-11-17 18:57:22] [INFO] New best model! Loss: 0.864302
+[2025-11-17 18:57:23] [INFO] Checkpoint saved at epoch 14
+[2025-11-17 19:04:01] [INFO] Epoch [15/50] Average Loss: 0.862865
+[2025-11-17 19:04:01] [INFO] New best model! Loss: 0.862865
+[2025-11-17 19:04:01] [INFO] Checkpoint saved at epoch 15
+[2025-11-17 19:10:41] [INFO] Epoch [16/50] Average Loss: 0.859902
+[2025-11-17 19:10:41] [INFO] New best model! Loss: 0.859902
+[2025-11-17 19:10:42] [INFO] Checkpoint saved at epoch 16
+[2025-11-17 19:17:17] [INFO] Epoch [17/50] Average Loss: 0.857788
+[2025-11-17 19:17:17] [INFO] New best model! Loss: 0.857788
+[2025-11-17 19:17:18] [INFO] Checkpoint saved at epoch 17
+[2025-11-17 19:24:00] [INFO] Epoch [18/50] Average Loss: 0.855244
+[2025-11-17 19:24:00] [INFO] New best model! Loss: 0.855244
+[2025-11-17 19:24:00] [INFO] Checkpoint saved at epoch 18
+[2025-11-17 19:30:42] [INFO] Epoch [19/50] Average Loss: 0.854479
+[2025-11-17 19:30:42] [INFO] New best model! Loss: 0.854479
+[2025-11-17 19:30:43] [INFO] Checkpoint saved at epoch 19
+[2025-11-17 19:37:24] [INFO] Epoch [20/50] Average Loss: 0.853335
+[2025-11-17 19:37:24] [INFO] New best model! Loss: 0.853335
+[2025-11-17 19:37:25] [INFO] Checkpoint saved at epoch 20
+[2025-11-17 19:44:00] [INFO] Epoch [21/50] Average Loss: 0.851748
+[2025-11-17 19:44:00] [INFO] New best model! Loss: 0.851748
+[2025-11-17 19:44:01] [INFO] Checkpoint saved at epoch 21
+[2025-11-17 19:50:42] [INFO] Epoch [22/50] Average Loss: 0.849092
+[2025-11-17 19:50:42] [INFO] New best model! Loss: 0.849092
+[2025-11-17 19:50:42] [INFO] Checkpoint saved at epoch 22
+[2025-11-17 19:57:25] [INFO] Epoch [23/50] Average Loss: 0.847517
+[2025-11-17 19:57:25] [INFO] New best model! Loss: 0.847517
+[2025-11-17 19:57:25] [INFO] Checkpoint saved at epoch 23
+[2025-11-17 20:04:06] [INFO] Epoch [24/50] Average Loss: 0.845896
+[2025-11-17 20:04:06] [INFO] New best model! Loss: 0.845896
+[2025-11-17 20:04:07] [INFO] Checkpoint saved at epoch 24
+[2025-11-17 20:10:44] [INFO] Epoch [25/50] Average Loss: 0.846312
+[2025-11-17 20:17:26] [INFO] Epoch [26/50] Average Loss: 0.844638
+[2025-11-17 20:17:26] [INFO] New best model! Loss: 0.844638
+[2025-11-17 20:17:27] [INFO] Checkpoint saved at epoch 26
+[2025-11-17 20:24:07] [INFO] Epoch [27/50] Average Loss: 0.842196
+[2025-11-17 20:24:07] [INFO] New best model! Loss: 0.842196
+[2025-11-17 20:24:08] [INFO] Checkpoint saved at epoch 27
+[2025-11-17 20:30:50] [INFO] Epoch [28/50] Average Loss: 0.840379
+[2025-11-17 20:30:50] [INFO] New best model! Loss: 0.840379
+[2025-11-17 20:30:51] [INFO] Checkpoint saved at epoch 28
+[2025-11-17 20:37:33] [INFO] Epoch [29/50] Average Loss: 0.840037
+[2025-11-17 20:37:33] [INFO] New best model! Loss: 0.840037
+[2025-11-17 20:37:34] [INFO] Checkpoint saved at epoch 29
+[2025-11-17 20:44:17] [INFO] Epoch [30/50] Average Loss: 0.839178
+[2025-11-17 20:44:17] [INFO] New best model! Loss: 0.839178
+[2025-11-17 20:44:18] [INFO] Checkpoint saved at epoch 30
+[2025-11-17 20:50:56] [INFO] Epoch [31/50] Average Loss: 0.835445
+[2025-11-17 20:50:56] [INFO] New best model! Loss: 0.835445
+[2025-11-17 20:50:57] [INFO] Checkpoint saved at epoch 31
+[2025-11-17 20:57:37] [INFO] Epoch [32/50] Average Loss: 0.837469
+[2025-11-17 21:04:20] [INFO] Epoch [33/50] Average Loss: 0.835059
+[2025-11-17 21:04:20] [INFO] New best model! Loss: 0.835059
+[2025-11-17 21:04:21] [INFO] Checkpoint saved at epoch 33
+[2025-11-17 21:11:02] [INFO] Epoch [34/50] Average Loss: 0.835552
+[2025-11-17 21:17:46] [INFO] Epoch [35/50] Average Loss: 0.832502
+[2025-11-17 21:17:46] [INFO] New best model! Loss: 0.832502
+[2025-11-17 21:17:47] [INFO] Checkpoint saved at epoch 35
+[2025-11-17 21:24:42] [INFO] Epoch [36/50] Average Loss: 0.833365
+[2025-11-17 21:31:20] [INFO] Epoch [37/50] Average Loss: 0.831459
+[2025-11-17 21:31:20] [INFO] New best model! Loss: 0.831459
+[2025-11-17 21:31:21] [INFO] Checkpoint saved at epoch 37
+[2025-11-17 21:37:55] [INFO] Epoch [38/50] Average Loss: 0.829138
+[2025-11-17 21:37:55] [INFO] New best model! Loss: 0.829138
+[2025-11-17 21:37:56] [INFO] Checkpoint saved at epoch 38
+[2025-11-17 21:44:30] [INFO] Epoch [39/50] Average Loss: 0.829815
+[2025-11-17 21:51:10] [INFO] Epoch [40/50] Average Loss: 0.829309
+[2025-11-17 21:57:46] [INFO] Epoch [41/50] Average Loss: 0.828454
+[2025-11-17 21:57:46] [INFO] New best model! Loss: 0.828454
+[2025-11-17 21:57:47] [INFO] Checkpoint saved at epoch 41
+[2025-11-17 22:04:26] [INFO] Epoch [42/50] Average Loss: 0.828211
+[2025-11-17 22:04:26] [INFO] New best model! Loss: 0.828211
+[2025-11-17 22:04:27] [INFO] Checkpoint saved at epoch 42
+[2025-11-17 22:11:06] [INFO] Epoch [43/50] Average Loss: 0.828369
+[2025-11-17 22:17:38] [INFO] Epoch [44/50] Average Loss: 0.827580
+[2025-11-17 22:17:38] [INFO] New best model! Loss: 0.827580
+[2025-11-17 22:18:00] [INFO] Checkpoint saved at epoch 44
+[2025-11-17 22:24:56] [INFO] Epoch [45/50] Average Loss: 0.826730
+[2025-11-17 22:24:56] [INFO] New best model! Loss: 0.826730
+[2025-11-17 22:24:57] [INFO] Checkpoint saved at epoch 45
+[2025-11-17 22:32:10] [INFO] Epoch [46/50] Average Loss: 0.826514
+[2025-11-17 22:32:10] [INFO] New best model! Loss: 0.826514
+[2025-11-17 22:32:10] [INFO] Checkpoint saved at epoch 46
+[2025-11-17 22:39:14] [INFO] Epoch [47/50] Average Loss: 0.826701
+[2025-11-17 22:45:49] [INFO] Epoch [48/50] Average Loss: 0.825706
+[2025-11-17 22:45:49] [INFO] New best model! Loss: 0.825706
+[2025-11-17 22:45:50] [INFO] Checkpoint saved at epoch 48
+[2025-11-17 22:52:25] [INFO] Epoch [49/50] Average Loss: 0.824755
+[2025-11-17 22:52:25] [INFO] New best model! Loss: 0.824755
+[2025-11-17 22:52:26] [INFO] Checkpoint saved at epoch 49
+[2025-11-17 22:59:00] [INFO] Epoch [50/50] Average Loss: 0.827608
+[2025-11-17 22:59:01] [INFO] Checkpoint saved at epoch 50
+[2025-11-17 22:59:01] [INFO] Training completed!
+[2025-11-17 22:59:01] [INFO] Best loss: 0.824755
+[2025-11-17 22:59:01] [INFO] Checkpoints saved in: outputs/20251117_172225/checkpoints

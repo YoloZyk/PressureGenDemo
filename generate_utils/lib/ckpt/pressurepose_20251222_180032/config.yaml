@@ -1,0 +1,40 @@
+dataset:
+  name: pressurepose
+  normal: true
+device: cuda
+model:
+  cond_decoder:
+    type: mlp
+  cond_embed_dim: 256
+  cond_encoder:
+    return_global_feature: true
+    type: pointnet
+    use_spatial_transformer: false
+  cond_type: vertices
+  dropout_rate: 0.3
+  embed_dim: 256
+  main_decoder:
+    bilinear: false
+    type: unet
+  main_encoder:
+    type: resnet18
+output: null
+seed: 42
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  log_freq: 10
+  loss:
+    kl_weight: 10.0
+    pcr_weight: 60.0
+    pmr_weight: 100.0
+  num_epochs: 100
+  optimizer:
+    type: adam
+    weight_decay: 0.0001
+  save_freq: 999
+  scheduler:
+    gamma: 0.1
+    step_size: 30
+    type: cosine
+  val_freq: 1

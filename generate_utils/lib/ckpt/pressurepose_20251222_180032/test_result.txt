@@ -1,0 +1,20 @@
+Test Results for experiment: output/pressurepose_20251222_180032/
+Checkpoint used: best_model.pth
+------------------------------
+SSIM: 0.892187
+MAE: 1.883694
+MSE: 31.912682
+MRE: 0.018837
+CoP_Dist: 0.500346
+------------------------------
+IPMAN SSIM: 0.527497
+IPMAN MAE: 5.092346
+IPMAN MSE: 221.172048
+IPMAN MRE: 0.050923
+IPMAN CoP_Dist: 1.602944
+------------------------------
+PMR SSIM: 0.541821
+PMR MAE: 16.486778
+PMR MSE: 2864.192610
+PMR MRE: 0.164868
+PMR CoP_Dist: 4.019547
