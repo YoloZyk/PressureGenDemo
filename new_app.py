@@ -7,7 +7,7 @@
 # 4. 可视化展示生成的人体模型和压力分布
 # 5. 允许用户保存新生成的参数到库中【新增功能】
 
-# streamlit run app.py --server.port 8501
+# streamlit run new_app.py --server.port 8501
 
 import streamlit as st
 import torch
