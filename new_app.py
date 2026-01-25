@@ -20,7 +20,7 @@ from sample_utils import PoseSampler, sample_beta, sample_transl4pp
 from generate_utils import PressureGenerator
 
 # --- 1. 初始化 (必须放在最前面) ---
-st.set_page_config(page_title="SMPL Body & Pressure Analysis", layout="wide")
+st.set_page_config(page_title="SMPL2Pressure", layout="wide")
 
 # 强制注入 CSS 减少顶部空白
 st.markdown("""
@@ -94,7 +94,7 @@ with st.sidebar:
 # --- 4. 主界面布局与按钮响应 ---
 head_c1, head_c2, head_c3 = st.columns([3, 1, 1])
 with head_c1:
-    st.subheader("🔬 SMPL Body-Pressure Correlation")
+    st.subheader("🔬 Pressure Map Synthesis via SMPL Model")
 
 with head_c2:
     # 按钮点击后，更新 Session State
@@ -153,7 +153,7 @@ view_c1, view_c2 = st.columns([7.2, 2.8])
 DISPLAY_HEIGHT = 730
 
 with view_c1:
-    st.subheader("🌐 3D Mesh Inspection")
+    st.subheader("🌐 3D Mesh")
     fig_3d = go.Figure(data=[go.Mesh3d(
         x=verts[:, 0], y=verts[:, 1], z=verts[:, 2],
         i=faces[:, 0], j=faces[:, 1], k=faces[:, 2],
